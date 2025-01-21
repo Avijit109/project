@@ -28,8 +28,8 @@ a{
     font-family: poppins;
 }
 .heading h2 span{
-    /* color: #f8ac00; */
-    color: brown;
+    color: #f8ac00;
+    /* color: brown; */
 }
 .heading p{
     font-size: 17px;
