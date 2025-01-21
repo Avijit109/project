@@ -1,0 +1,1193 @@
+/* -----poppins-------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1457px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.nav-links li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.heading h2{
+    font-size: 67.05px;
+    line-height: 92.17px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: poppins;
+}
+.heading h2 span{
+    color: #f8ac00;
+}
+.heading p{
+    font-size: 17px;
+    line-height: 27px;
+    font-family: poppins;
+    font-weight: 400;
+}
+.btn-1{
+    background-color: #ffffff;
+    padding: 26px 59px;
+    color:#dd9900;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    display: inline-block;
+    font-family: poppins;
+    border-radius: 50px;
+    text-transform:uppercase;
+}
+.btn-2{
+    background-color: #000000;
+    padding: 21px 68px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    font-family: poppins;
+    font-weight: 400;
+}
+.btn-3{
+    padding: 24px 62px;;
+}
+img{
+    display: block;
+}
+section,
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    flex-direction: column;
+}
+h3{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+p{
+    font-family: poppins;
+    font-weight: 400;
+}
+h4{
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-family: poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* -------common section end------- */
+/* ------header start------------ */
+.navbar{
+    width: 100%;
+}
+.navbar .container{
+    width: 100%;
+    padding: 57px 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .container .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+.navbar .container .nav-links li{
+    padding: 0px 41px;
+}
+.navbar .container .nav-links li a{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+}
+/* ------header end------------ */
+
+/* -------banner start----------- */
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: url(../image/banner-image/banner-img-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% 100%;
+    position: relative;
+
+}
+.banner .container{
+    padding: 0px 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .container .row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.banner .container .row .heading{
+    padding-left: 25%;
+    width: 70%;
+}
+.banner .container .row .heading h1{
+    width: 75%;
+    /* width: 100%; */
+    font-size:119px;
+    line-height: 126px;
+    color: #FFFFFF;
+}
+.banner .container .row .heading p{
+    padding-top: 17.32px;
+    color:#FFFFFF;
+}
+.banner .container .row .heading .button-area{
+    padding-top: 31px;
+}
+.banner .container .banner-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 94.6%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner .container .banner-icon .fa-angle-left{
+    color: #ffffff;
+    background-color: #dd9900;
+    border: none;
+    border-radius: 50%;
+    padding: 18px 20px;  
+}
+.banner .container .banner-icon .fa-angle-right{
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #000000;
+    padding: 26px 32px;
+    border: none;
+}
+/* -------banner end----------- */
+
+/* -------about us section start---------- */
+.about{
+    height: auto;
+    width: 100%;
+    padding-top: 194px;
+}
+.about .container{
+    width: 100%;
+    padding:0px 59px;
+}
+.about .container .about-section-child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 62px;
+}
+.about .container .about-section-child .heading p{
+    padding-top: 32px;
+    width: 90%;
+    
+}
+.about .container .about-section-child .heading .button-area{
+    padding-top: 32px;
+    
+}
+
+/* -------about us section end---------- */
+
+/* ------- services section start-----------*/
+.service{
+    height: auto;
+    width: 100%;
+    padding: 117px 0px;
+}
+.service .container{
+    padding: 0px 59px;
+}
+.service .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.service .container .row .services-item-layout{
+    width: 100%;
+    padding-top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.service .container .row .services-item-layout .service-card{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.service .container .row .services-item-layout .service-card p{
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.service .container .row .button-area{
+    padding-top: 77px;
+}
+/* ------- services section end-----------*/
+
+/* ------gallery section start-------- */
+.gallery{
+    background-color: #000000;
+    height: 150vh;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.gallery .container{
+    padding: 0px 59px;
+}
+.gallery .gallery-layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 106px;
+}
+.gallery .gallery-layout .gallery-img img{
+    width:100%;
+}
+.gallery .gallery-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.gallery .gallery-icon .fa-angle-left{
+    color: #ffffff;
+    background-color: #dd9900;
+    border: none;
+    border-radius: 50%;
+    padding: 18px 20px;  
+}
+.gallery .gallery-icon .fa-angle-right{
+    color: #000000;
+    border-radius: 50%;
+    background-color:#e8e8e8;
+    padding: 26px 32px;
+    border: none;
+}
+.gallery .container .row .heading h2{
+    color: #FFFFFF;
+    text-align: center;
+}
+.gallery .container .row .heading p{
+    color: #FFFFFF;
+    text-align: center;
+}
+/* -----swiper css------- */
+/* ------gallery section end-------- */
+
+/* -------design start---------------- */
+.design{
+    width: 100%;
+    background: url(../image/design-image/img-1.png);
+    /* background-attachment: fixed; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.design .container{
+    padding: 0px 59px;
+    height: 100%;
+}
+.design .container .design-child{
+    width: 100%;
+}
+.design .container .design-child .design-card{
+    width: 50%;
+    background-color: #FFFFFF;
+}
+.design .container .design-child .design-card .heading{
+    padding-left: 119px;
+}
+.design .container .design-child .design-card .heading h2{
+    width: 70%;
+}
+.design .container .design-child .design-card .heading p{
+    padding-top: 35px;
+    width: 70%;
+    font-size: 12px;
+}
+/* -------design end---------------- */
+/* ----testimonial section start---- */
+.testimonial{
+    height: auto;
+    width: 100%;
+    padding: 113px 0px 184px 0px;
+}
+.testimonial .container{
+    padding: 0px 59px;
+}
+.testimonial .container .row .testimonial-layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3%;
+    padding-top: 105px;
+}
+.testimonial .container .row .testimonial-layout .test-card{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 0px 30px 0px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 5px #f2f2f2;
+}
+
+.testimonial .container .row .testimonial-layout .test-card i{
+    color: #f8ac00;
+    font-size: 60px;
+}
+.testimonial .container .row .testimonial-layout .test-card p{
+    padding-top: 42px;
+    width: 78%;
+    text-align: center;
+}
+.testimonial .container .row .testimonial-layout .test-card h5{
+    padding-top: 31px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.testimonial .container .row .testimonial-layout .test-card img{
+    padding-top: 46px;
+}
+/* ------swiper css--------- */
+/* ----testimonial section end---- */
+/* -----contact us section start------------ */
+.contact{
+    height: auto;
+    width:100%;
+    background-color: #000000;
+    padding: 92px 0px 107px 0px;
+}
+.contact .container{
+    padding: 0px 59px;
+}
+/* .contact .container .row{
+    padding: 98px 0px 107px 0px;
+} */
+.contact .container .row .heading h2{
+    color: #FFFFFF;
+}
+.contact .container .row .contact-child{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 86px 79px 0px 79px;
+    gap: 5%;
+}
+.contact .container .row .contact-child .contact-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+.contact .container .row .contact-child .contact-input input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 24px 0px 24px 26px;
+}
+.contact .container .row .contact-child .contact-input input::placeholder{
+    font-size: 16px;
+}
+.contact .container .row .contact-child .contact-input textarea{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 24px 0px 0px 26px;
+}
+.contact .container .row .contact-child .contact-input textarea::placeholder{
+    
+    font-size: 20px;
+}
+.contact .container .row .contact-child .contact-input a{
+    background-color: #dd9900;
+    width: fit-content;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 700;
+
+}
+.contact .container .row .contact-child .contact-address{
+    width: 50%;
+    border-radius: 20px;
+}
+.contact .container .row .contact-child .contact-address iframe{
+    width: 100%;
+    min-height: 430px;
+    height: 100%;
+    border-radius: 20px;
+}
+/* -----contact us section end------------ */
+
+/* ------footer section start------------- */
+footer{
+    height: auto;
+    width: 100%;
+}
+footer .footer-top{
+    background-color: #f8ac00;
+     padding: 89px 144px 180px 144px;
+}
+footer .footer-top .container{
+    padding: 0px 59px;
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    gap: 8%; 
+}
+footer .footer-top .container .icon{
+    display: inline-block;
+    gap: 7px;
+}
+footer .footer-top .container .icon i{
+    background-color: #000000;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 50%;
+}
+footer .footer-top .container .icon a{
+    color: #f8ac00;
+}
+footer .footer-top .container .icon p{
+    padding-top: 27px;
+    line-height: 30px;
+    width: 80%;
+}
+footer .footer-top .container .help p{
+    padding-top: 32px;
+    line-height: 30px;
+    width: 80%;
+}
+footer .footer-top .container .inform h4{
+    padding-bottom: 32px;
+}
+footer .footer-top .container .inform p{
+    width: 80%;
+    line-height: 30px;
+}
+footer .footer-top .container .inform ul li{
+    list-style: none;
+}
+footer .footer-top .container .inform ul li a{
+    color: #070603;
+    text-transform: capitalize;
+    font-size: 17px;
+    line-height: 30px;
+}
+footer .footer-top .container .desig p{
+    padding-top: 32px;
+    line-height: 30px;
+    width: 80%;
+}
+footer .footer-bottom{
+    background-color: #FFFFFF;
+    padding: 27px 0px;
+}
+footer .footer-bottom .container{
+    padding: 0px 59px;
+}
+footer .footer-bottom .container p{
+    text-align: center;
+    
+}
+footer .footer-bottom .container a{
+    color: #000000;
+   
+}
+/* ------footer section end------------- */
+
+/* ------responsive start--------- */
+@media  (max-width:1400px) {
+    /* -------navbar------- */
+    .navbar .container{
+        padding: 47px 49px;
+    }
+    .navbar .container .nav-links li{
+        padding: 0px 21px;
+    }
+    /* -----banner---------- */
+    .banner .container{
+        padding: 0px 49px;
+    }
+    /* .banner .container .row .heading{
+        width: 64%;
+    } */
+    .banner .container .row .heading h1{
+        font-size: 102px;
+        line-height: 96px;
+
+    }
+    .banner .container .row .heading .button-area .btn-1{
+        padding: 16px 39px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .banner .container .banner-icon{
+        top: 94.5%;
+    }
+    /* -----about------ */
+    .about .container{
+        padding: 0px 49px;
+    }
+    /* ------service------ */
+    .service .container{
+        padding: 0px 49px;
+    }
+    /* ------design------ */
+    .design .container{
+        padding: 0px 49px;
+    }
+    .design .container .design-child .design-card{
+        width: 60%;
+    }
+    .design .container .design-child .design-card .heading{
+        padding-left: 99px;
+    }
+    .design .container .design-child .design-card .heading h2{
+        line-height: 87px;
+    }
+    /* --------contact---------- */
+    .contact .container{
+        padding: 0px 49px;
+    }
+    /* -----footer----------- */
+    footer .footer-top{
+        padding: 79px 90px 160px 90px;
+    }
+    footer .footer-top .container{
+        padding: 0px 49px;
+        gap:3%;
+    }
+    footer .footer-bottom .container{
+        padding: 0px 49px;
+    }
+    h4{
+        font-size: 28px;
+    }
+}
+@media (max-width:1199.98px) {
+    /* -----navbar-------- */
+    .navbar .container .logo img{
+        width: 80%;
+    }
+    /* -----banner------- */
+    .banner .container{
+        padding: 0px 49px;
+    }
+    .banner .container .row .heading{
+        padding-left: 160px;
+    }
+    .banner .container .row .heading h1{
+        font-size: 82px;
+        line-height: 106px;
+    }
+    .banner .container .banner-icon{
+        top: 94.5%;
+    }
+    /* ------about--------- */
+    .about .container{
+        padding: 0px 49px;
+    }
+    .about .container .about-section-child{
+        padding: 0px 32px;
+    }
+    .about .container .about-section-child .heading{
+        width: 70%;
+    }
+    .about .container .about-section-child .about-img img{
+        width: 100%;
+    }
+    /* ------design------------- */
+    .design .container{
+        padding: 0px 49px;
+    }
+    .design .container .design-child .design-card{
+        width: 55%;
+    }
+    .design .container .design-child .design-card .heading h2{
+        width: 100%;
+    }
+    /* ------contact------ */
+    .contact .container{
+        padding: 0px 49px;
+    }
+    .contact .container .row .contact-child{
+        padding: 86px 59px 0px 59px;
+    }
+}
+@media (max-width:1023.98px) {
+    /* -------navbar------ */
+    .navbar .container{
+        padding: 37px 29px;
+    }
+    .navbar .container .nav-links li{
+        padding: 0px 10px;
+    }
+    /* ------banner------- */
+    .banner .container{
+        padding: 0px 29px;
+    }
+    /* .banner .container .row .heading{
+        width: 56%;
+    } */
+    .banner .container .row .heading h1{
+        font-size: 77px;
+        line-height: 85px;
+    }
+    .banner .container .banner-icon{
+        top: 93.5%;
+    }
+    /* ------about--------- */
+    .about{
+        padding-top: 110px;
+    }
+    .about .container{
+        padding: 0px 29px;
+    }
+    .about .container .about-section-child .heading{
+        width: 100%;
+    }
+    .about .container .about-section-child .heading h2{
+        font-size: 47px;
+        line-height: 62px;
+    }
+    .about .container .about-section-child{
+        padding: 0px 22px;
+    }
+    .about .container .about-section-child .heading p{
+        padding-top: 26px;
+    }
+    .about .container .about-section-child .heading .button-area{
+        padding-top: 26px;
+        
+    }
+
+    /* -----service------- */
+    .service{
+        padding: 77px 0px;
+    }
+    .service .container{
+        padding: 0px 29px;
+    }
+    .service .container .row .heading h2{
+        font-size: 47px;
+    }
+    .service .container .row .services-item-layout{
+        padding-top: 55px;
+    }
+    .service .container .row .button-area{
+        padding-top: 52px;
+    }
+     /* -----design-------- */
+     .design .container{
+        padding: 0px 29px;
+    }
+    .design .container .design-child .design-card .heading{
+        padding-left: 79px;
+    }
+     .design .container .design-child .design-card .heading p{
+        padding-top: 25px;
+        width: 100%;
+    }
+    .design .container .design-child .design-card{
+        width: 50%;
+    }
+    .design .container .design-child .design-card .heading h2{
+        font-size: 47px;
+        line-height: 65px;
+    }
+    /* ------contact-------- */
+    .contact{
+        padding: 72px 0px;
+    }
+    .contact .container{
+        padding: 0px 29px;
+    }
+    .contact .container .row  .heading h2{
+        font-size: 47px;
+        line-height: 62px;
+    }
+    .contact .container .row .contact-child{
+        padding: 55px 59px 0px 59px;
+    }
+    .contact .container .row .contact-child .contact-input input{
+        padding: 20px 0px 20px 22px;
+    }
+    .contact .container .row .contact-child .contact-input textarea{
+        padding: 20px 0px 20px 22px;
+    }
+    .contact .container .row .contact-child .contact-address iframe{
+        min-height: 410px;
+    }
+    /* -----footer--------- */
+    footer .footer-top{
+        padding: 59px 40px 120px 40px;
+    }
+    footer .footer-top .container{
+        padding: 0px 29px;
+        gap:3%;
+    }
+    footer .footer-top .container .inform ul li a{
+        line-height: 34px;
+    }
+    footer .footer-bottom .container{
+        padding: 0px 29px;
+    }
+    footer .footer-bottom{
+        padding: 20px 0px;
+    }
+    h4{
+        font-size: 24px;
+    }
+}
+@media (max-width:991.98px) {
+    /* -------navbar------ */
+    .navbar .container{
+        padding: 37px 29px;
+    }
+    .navbar .container .nav-links li{
+        padding: 0px 12px;
+    }
+    /* -----banner---------- */
+    .banner .container{
+        padding: 0px 29px;
+    }
+    /* .banner .container .row .heading{
+        width: 54%;
+    } */
+    .banner .container .row .heading h1{
+        font-size: 66px;
+        line-height: 86px;
+    }
+    .banner .container .row .heading .button-area .btn-1{
+        padding: 12px 29px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* -----about------- */
+    .about .container{
+        padding: 0px 29px;
+    }
+    .about .container .about-section-child{
+        padding: 0px 22px;
+    }
+    /* ------service----- */
+    .service .container{
+        padding: 0px 29px;
+    }
+    /* ------design------ */
+    .design .container{
+        padding: 0px 29px;
+    }
+    /* -----contact----- */
+    .contact .container .row .contact-child{
+        padding: 66px 39px 0px 39px;
+    }
+    /* -------footer-------- */
+    footer .footer-top .container .help p{
+        width: 100%;
+    }
+    footer .footer-top .container .icon p{
+        width: 100%;
+    }
+    footer .footer-top .container .desig p{
+        width: 100%
+    }
+    footer .footer-top .container .inform p{
+        width: 100%;
+    }
+}
+@media (max-width:767.98px) {
+    /* ------navbar----------- */
+    .navbar .container{
+        padding: 27px 29px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+    }
+    .navbar .container .logo img{
+        width: 70%;
+    }
+   
+    .navbar .container .nav-links{
+        flex-direction: column;
+        align-items: start;
+    }
+    .navbar .container .nav-links li{
+        padding: 15px 0px;
+    }
+    /* -----banner------- */
+    .banner .container{
+        padding: 0px 29px;
+    }
+    .banner .container .row .heading{
+        /* width: 59%; */
+        padding-left: 110px;
+    }
+    .banner .container .row .heading h1{
+        font-size: 56px;
+        line-height: 76px;
+    }
+    .banner .container .row .heading .button-area .btn-1{
+        padding: 12px 29px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .banner .container .banner-icon{
+        top: 94.5%;
+    }
+    .banner .container .banner-icon .fa-angle-left{
+        padding: 16px 18px;
+    }
+    .banner .container .banner-icon .fa-angle-right{
+        padding: 22px 28px;
+    }
+    /* ------about------- */
+    .about .container .about-section-child{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .about .container .about-section-child .heading p{
+        width: 100%;
+    }
+    .about .container .about-section-child .about-img{
+        width: 100%;
+    }
+    /* -------service------- */
+    .service{
+        padding: 57px 0px;
+    }
+    .service .container .row .services-item-layout{
+        flex-wrap: wrap;
+        padding-top: 45px;
+    }
+    .service .container .row .services-item-layout .service-card{
+        width: 45%;
+        padding-bottom: 20px;
+    }
+    .service .container .row .button-area{
+        padding-top: 37px;
+    }
+    /* ------design----- */
+    .design .container{
+        padding: 0px 29px;
+    }
+    .design .container .design-child .design-card{
+        width: 70%;
+    }
+    .design .container .design-child .design-card .heading{
+        padding-left: 69px;
+    }
+    .design .container .design-child .design-card .heading p{
+        padding-top: 15px;
+    }
+    /* ------contact------- */
+    .contact{
+        padding: 52px 0px;
+    }
+    .contact .container .row {
+        align-items:start;
+    }
+    .contact .container .row .heading h2{
+        padding-left: 29px;
+    }
+    .contact .container .row .contact-child{
+        flex-direction: column;
+        gap: 20px;
+        padding: 46px 29px 0px 29px;
+    }
+    .contact .container .row .contact-child .contact-input{
+        width: 100%;
+    }
+    .contact .container .row .contact-child .contact-input input{
+        width: 100%;
+    }
+    .contact .container .row .contact-child .contact-input textarea{
+        width: 100%;
+    }
+    .contact .container .row .contact-child .contact-input a{
+        padding: 18px 62px;
+        font-size: 22px;
+    }
+    .contact .container .row .contact-child .contact-address{
+        width: 100%;
+    }
+    /* -------footer-------- */
+    footer .footer-top{
+        padding: 49px 20px 80px 20px;
+    }
+    footer .footer-top .container{
+        flex-wrap: wrap;
+
+    }
+    footer .footer-top .container .icon{
+        width: 47%;
+        padding-bottom: 20px;
+    }
+    footer .footer-top .container .icon p{
+        padding-top: 22px;
+        width: 100%;
+    }
+    footer .footer-top .container .help{
+        width: 47%;
+        padding-bottom: 20px;
+    }
+    footer .footer-top .container .help p{
+        padding-top: 27px;
+        width: 100%;
+    }
+    footer .footer-top .container .inform{
+        width: 47%;
+    }
+    footer .footer-top .container .inform h4{
+        padding-bottom: 27px;
+    }
+    footer .footer-top .container .inform ul li a{
+        line-height: 24px;
+    }
+    footer .footer-top .container .desig{
+        width: 47%;
+    }
+    footer .footer-top .container .desig p{
+        padding-top: 27px;
+        width: 100%;
+    }
+}
+@media (max-width:575.98px) {
+    /* -------navbar------- */
+    .navbar .container .logo img{
+        width: 60%;
+    }
+    .navbar .container .nav-links{
+        flex-direction: column;
+    }
+    /* ------bannner----- */
+    .banner .container{
+        padding: 0px 29px;
+    }
+    .banner .container .row .heading{
+        padding-left: 0px;
+        /* width: 60%; */
+    }
+    /* ------about--------- */
+    .about{
+        padding-top: 67px;
+    }
+    .about .container .about-section-child .heading .button-area .btn-2{
+        padding: 18px 32px;
+        font-size: 14px;
+    }
+    /* ------service-------- */
+    .service .container .row .button-area .btn-2{
+        padding: 18px 32px;
+        font-size: 14px;
+    }
+
+    /* -----design------- */
+    .design .container .design-child .design-card{
+        width: 80%;
+    }
+    .design .container .design-child .design-card .heading{
+        padding-left: 69px;
+    }
+    /* -------contact------- */
+    .contact .container .row .contact-child .contact-input .btn-3{
+        padding: 12px 42px;
+    }
+    .contact .container .row .contact-child .contact-input a{
+        font-size: 18px;
+    }
+}
+@media (max-width:319.98px) {
+    /* ------navbar--------- */
+    .navbar .container{
+        padding: 17px 10px;
+    }
+    .navbar .container .nav-links li{
+        flex-direction: column;
+    }
+    /* ----banner----- */
+    .banner .container{
+        padding: 0px 10px;
+    }
+    .banner .container .row .heading{
+        padding-left: 0px;
+        /* width: 60%; */
+    }
+    .banner .container .row .heading h1{
+        font-size: 36px;
+        line-height: 56px;
+    }
+    .banner .container .row .heading .button-area .btn-1{
+        padding: 12px 29px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .banner .container .banner-icon{
+        top: 95%;
+    }
+    .banner .container .banner-icon .fa-angle-left{
+        padding: 14px 16px;
+    }
+    .banner .container .banner-icon .fa-angle-right{
+        padding: 18px 24px;
+    }
+    /* -----about------- */
+    .about{
+        padding-top: 60px;
+    }
+    .about .container{
+        padding: 0px 10px;
+    }
+    .about .container .about-section-child{
+        padding: 0px 14px;
+    }
+    .about .container .about-section-child .heading h2{
+        font-size: 37px;
+        line-height: 52px;
+    }
+    .about .container .about-section-child .heading p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .about .container .about-section-child .heading .button-area .btn-2{
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+    /* ----------service---------- */
+    .service{
+        padding: 37px 0px;
+    }
+    .service .container{
+        padding: 0px 10px;
+    }
+    .service .container .row .heading h2{
+        font-size: 37px;
+        line-height: 52px;
+    }
+    .service .container .row .button-area .btn-2{
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+    /* ------design-------- */
+    .design .container{
+        padding: 0px 10px;
+    }
+    .design .container .design-child .design-card{
+        width: 85%;
+    }
+    .design .container .design-child .design-card .heading{
+        padding-left: 15px;
+    }
+    .design .container .design-child .design-card .heading h2{
+        font-size: 37px;
+        line-height: 52px;
+    }
+    .design .container .design-child .design-card .heading p{
+        line-height: 18px;
+    }
+    /* -----conatct-------- */
+    .contact .container{
+        padding: 0px 10px;
+    }
+    .contact .container .row .heading h2{
+        padding-left: 16px;
+    }
+    .contact .container .row .contact-child{
+        padding: 36px 16px 0px 16px;
+    }
+    
+    .contact .container .row .contact-child .contact-address iframe{
+        min-height:250px;
+    }
+    .contact .container .row .contact-child .contact-input .btn-3{
+        padding: 10px 42px;
+    }
+    .contact .container .row .contact-child .contact-input a{
+        font-size: 18px;
+    }
+    /* ------footer---------------- */
+    footer .footer-top{
+        padding: 30px 10px;
+    }
+    footer .footer-top .container{
+        padding: 0px 10px;
+    }
+    footer .footer-top .container .icon{
+        width: 100%;
+    }
+    footer .footer-top .container .help{
+        width: 100%;
+    }
+    footer .footer-top .container .inform{
+        width: 100%;
+    }
+    footer .footer-top .container .desig{
+        width: 100%;
+        padding-top: 20px;
+    }
+    footer .footer-bottom{
+        padding: 15px 0px;
+    }
+    footer .footer-bottom .container{
+        padding: 0px 10px;
+    }
+}
